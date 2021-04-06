@@ -1,0 +1,19 @@
+{
+  "name": "test_challenge",
+  "version": "1.0.0",
+  "description": "challenge 1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run",
+    "test-chrome": "./node_modules/.bin/cypress run --browser chrome",
+    "test-firefox": "./node_modules/.bin/cypress run --browser firefox"
+  },
+  "keywords": [
+    "qa_challenge"
+  ],
+  "author": "Diego Diaz",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
